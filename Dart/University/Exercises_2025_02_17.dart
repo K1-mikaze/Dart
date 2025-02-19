@@ -4,8 +4,8 @@ void Even_Numbers(){
   while(true){
     if (value%2==0){
       print(value);
-      value++;
     }
+    value++;
   }
 }
 
@@ -20,9 +20,6 @@ void Factorial_Number(int Number_Find,[int value = 1,int count = 1]){
     Factorial_Number(Number_Find, value,count+1);
   }
 }
-
-// Ejercicio #3
-
 void main(){
-  Factorial_Number(24);
+  Even_Numbers();
 }
