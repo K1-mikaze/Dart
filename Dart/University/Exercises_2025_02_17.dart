@@ -1,14 +1,25 @@
 // Ejercicio #1
-void Even_Numbers(){
-  int value = 0;
-  while(true){
-    if (value%2==0){
-      print(value);
-    }
-    value++;
-  }
-}
+List<int> ShowPrimeNumbersTill50(int n) {
+  if (n < 2) return [];
+  List<bool> prime = List.filled(n + 1, true);
+  prime[0] = prime[1] = false; // 0 y 1 no son primos
 
+  for (int i = 2; i * i <= n; i++) {
+    if (prime[i]) {
+      for (int j = i * i; j <= n; j += i) {
+        prime[j] = false;
+      }
+    }
+  }
+  List<int> primeNumbers = [];
+  for (int i = 2; i <= n; i++) {
+    if (prime[i]) {
+      primeNumbers.add(i);
+    }
+  }
+
+  return primeNumbers;
+}
 // Ejercicio #2
 void Factorial_Number(int Number_Find,[int value = 1,int count = 1]){
   value = value * count;
@@ -21,5 +32,5 @@ void Factorial_Number(int Number_Find,[int value = 1,int count = 1]){
   }
 }
 void main(){
-  Even_Numbers();
+  print(ShowPrimeNumbersTill50(50));
 }
