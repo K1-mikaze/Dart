@@ -31,4 +31,7 @@ void main(){
 
   var numbers = [1,2,3];
 
+  // Ternary Operator
+  String message = 39 >=  18 ? "Adult" : "Teenager";
+
 }
