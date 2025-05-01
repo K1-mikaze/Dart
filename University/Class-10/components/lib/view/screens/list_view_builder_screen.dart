@@ -71,18 +71,18 @@ class ListViewBuilderScreen extends StatelessWidget {
                       },
                       icon: Icon(Icons.arrow_forward_ios),),
 								*/
-                  /* trailing: InkWell(
-                    onTap: (){
+                  trailing: InkWell(
+                    onTap: () {
                       print('print desde Inkwell/GestureDetector');
                     },
                     borderRadius: BorderRadius.circular(10),
-                    
+
                     child: const Padding(
-                        padding: EdgeInsets.all(0),
-                        child: Icon(Icons.more_vert),
+                      padding: EdgeInsets.all(0),
+                      child: Icon(Icons.more_vert),
                     ),
-                    
-                ),*/
+                  ),
+                  /*
                   trailing: PopupMenuButton<String>(
                     icon: const Icon(Icons.arrow_drop_down),
                     onSelected: (value) {
@@ -100,6 +100,7 @@ class ListViewBuilderScreen extends StatelessWidget {
                           ),
                         ],
                   ),
+                  */
                   /*
                   trailing: IconButton(
                     onPressed: () async {
