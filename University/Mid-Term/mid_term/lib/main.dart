@@ -17,7 +17,3 @@ class To_do extends StatelessWidget {
     );
   }
 }
-
-
-
-
