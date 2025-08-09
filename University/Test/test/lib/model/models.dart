@@ -1,1 +1,0 @@
-export './data/noteList.dart';
