@@ -1,0 +1,53 @@
+---| 01 |----------------------------------- creación de la tabla productos
+
+  flutter_localizations: 
+    sdk: flutter  
+  intl: 
+
+---| 02 |----------------------------------- creación de la tabla productos
+
+      onCreate: (db, version) => db.execute('''
+          CREATE TABLE productos (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          nombre TEXT,
+          descripcion TEXT,
+          precio REAL,
+          existencia INTEGER,
+          porcentajeDescuento REAL,
+          valoracion INTEGER,
+          marca TEXT,
+          modelo TEXT,
+          formaIngreso TEXT,
+          categoria TEXT,
+          ultimoIngreso TEXT,
+          activo INTEGER,
+          imagen TEXT
+        )
+      '''),
+      
+ ---| 03 |-----------------------------------      
+ 
+ "Una nueva vista (pantalla) Flutter con un Scaffold": {
+	"prefix": "scrn",
+	"body": [
+		"import 'package:flutter/material.dart';",
+		"",
+		"class ${1:Home}Screen extends StatelessWidget {",
+		"  const ${1:Home}Screen({super.key});",
+		"  ",
+		"  @override",
+		"  Widget build(BuildContext context) {",
+		"    return Scaffold(",
+		"      appBar: AppBar(",
+		"         centerTitle: true,",
+		"         title: const Text('Título de ${1:Home}Screen'),",
+		"      ),",
+		"      body: const Center(",
+		"         child: Text('Contenido de ${1:Home}Screen'),",
+		"      ),",
+		"    );",
+		"  }",
+		"}"			
+	],
+	"description": "Crea una vista (pantalla) con un Scaffold"
+}

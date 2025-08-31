@@ -4,15 +4,15 @@ import 'package:inventario/config/routes/app_route.dart';
 import 'package:inventario/config/themes/app_theme.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp()); 
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-    @override
+  @override
   Widget build(BuildContext context) {
-      return MaterialApp(
+    return MaterialApp(
       supportedLocales: const [Locale('es'), Locale('en')],
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
@@ -29,3 +29,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
