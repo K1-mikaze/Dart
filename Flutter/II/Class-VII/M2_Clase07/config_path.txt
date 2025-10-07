@@ -1,0 +1,5 @@
+Configuración
+C:\Users\<usuario>\AppData\Roaming\npm
+Set-ExecutionPolicy Unrestricted
+C:\Users\<usuario>\AppData\Local\Pub\Cache\bin
+

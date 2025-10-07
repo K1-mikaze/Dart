@@ -64,7 +64,7 @@ class _ListProductoState extends State<ListProducto> {
             return const Center(
               child: Text(
                 'No hay productos disponibles',
-                style: const TextStyle(fontSize: 18),
+                style: TextStyle(fontSize: 18),
               ),
             );
           }
@@ -84,7 +84,7 @@ class _ListProductoState extends State<ListProducto> {
                   background: Container(
                     padding: EdgeInsets.only(left: 10),
                     child: const Align(
-                      alignment: AlignmentGeometry.centerLeft,
+                      alignment: Alignment.centerLeft,
                       child: Text(
                         "Eliminando...",
                         style: TextStyle(fontSize: 16, color: Colors.red),
