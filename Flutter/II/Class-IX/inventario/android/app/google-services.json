@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327443488403",
+    "project_id": "comercial-b0acc",
+    "storage_bucket": "comercial-b0acc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327443488403:android:5d84cea4e15668ad897766",
+        "android_client_info": {
+          "package_name": "com.example.inventario"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn9FOqtqmHh3pxtHswCNq4tUdPR0MuqF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

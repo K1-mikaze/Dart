@@ -121,6 +121,4 @@ class Producto {
   double aplicarDescuento() {
     return precio - (precio * (porcentajeDescuento / 100));
   }
-
-  // ... Métodos de utilida
 }
