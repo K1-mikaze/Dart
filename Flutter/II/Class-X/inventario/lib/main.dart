@@ -4,7 +4,7 @@ import 'package:inventario/config/routes/app_route.dart';
 import 'package:inventario/config/themes/app_theme.dart';
 
 void main() {
-  runApp(const MyApp()); 
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -29,4 +29,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

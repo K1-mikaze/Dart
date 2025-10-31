@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:inventario/config/routes/app_route.dart';
 import 'package:inventario/data/services/producto_service.dart';
 
 import '../../data/models/models.dart';
